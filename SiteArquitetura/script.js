@@ -45,7 +45,7 @@ sr.reveal('.animate-form', {
     duration: 1000,
     distance: '15rem',
     delay: 800, // Ajuste o delay conforme necessário
-    reset: true // Se você quiser que a animação seja repetida quando a seção for novamente visível
+    reset: false // Se você quiser que a animação seja repetida quando a seção for novamente visível
 });
 
 document.getElementById("contactForm").addEventListener("submit", function(event) {
